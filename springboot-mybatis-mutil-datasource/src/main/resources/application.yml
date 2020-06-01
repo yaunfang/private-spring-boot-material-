@@ -1,0 +1,23 @@
+## master ����Դ����
+master:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: yuanyuan121
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+
+## cluster ����Դ����
+cluster:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springbootdb_cluster?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: yuanyuan121
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+## 端口号 配置
+server:
+  port: 9090
+
+## debug 模式
+debug: true
